@@ -1,0 +1,31 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4f4;
+  margin: 0;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#list {
+  width: 100%;
+  max-width: 600px;
+  background-color: #fff;
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#loading {
+  margin-top: 1rem;
+  font-size: 1.2rem;
+  color: #007bff;
+  font-weight: bold;
+}
+
+#status {
+  margin-top: 1rem;
+  font-weight: bold;
+  color: #333;
+}
